@@ -1,6 +1,6 @@
 # Large-scale Data Classification based on the Integrated Fusion of Fuzzy Learning and Graph Neural Network
 
-[![arXiv](https://img.shields.io/badge/arXiv-CODE FOR PAPER.svg)](LINK TO PAPER)
+[![temp]([https://img.shields.io/badge/arXiv-CODE FOR PAPER.svg](https://www.sciencedirect.com/science/article/pii/S1566253523003834))](LINK TO PAPER)
 
 python testrun.py --cfg configs/GPS/mnist-GPS1.yaml  wandb.use False
 
@@ -13,7 +13,10 @@ How to build a FuzzyGNN ? We provide a 4-part recipe on how to build graph Trans
 3. global attention mechanism: [Transformer](https://arxiv.org/abs/1706.03762), [Performer](https://arxiv.org/abs/2009.14794), [BigBird](https://arxiv.org/abs/2007.14062)
 4. add fuzzy-assisted module.
 
-In this *FuzzyGNN* we modified package from source [GraphGPS](https://github.com/rampasek/GraphGPS)
+In this *FuzzyGNN*, we modified the package from sources
+
+ [GraphGPS](https://github.com/rampasek/GraphGPS)
+ 
 and [Anfis-pytorch](https://github.com/jfpower/anfis-pytorch)
 
 
