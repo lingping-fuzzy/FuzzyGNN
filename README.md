@@ -13,31 +13,31 @@ How to build a FuzzyGNN ? We provide a 4-part recipe on how to build graph Trans
 3. global attention mechanism: [Transformer](https://arxiv.org/abs/1706.03762), [Performer](https://arxiv.org/abs/2009.14794), [BigBird](https://arxiv.org/abs/2007.14062)
 4. add fuzzy-assisted module.
 
-### acknowledgement
+#Acknowledgement
 In this *FuzzyGNN*, we modified the package from sources
 
- [GraphGPS](https://github.com/rampasek/GraphGPS)
+Recipe for a General, Powerful, Scalable Graph Transformer [GraphGPS](https://github.com/rampasek/GraphGPS)
  
-and [Anfis-pytorch](https://github.com/jfpower/anfis-pytorch)
+ANFIS: adaptive-network-based fuzzy inference system [Anfis-pytorch](https://github.com/jfpower/anfis-pytorch)
 
 
-### Python environment setup with Conda
+# Python environment setup with Conda
  all process follows the procedure of [GraphGPS](https://github.com/rampasek/GraphGPS)
 ```bash
 
 
 
-### Running GraphGPS
+## Running GraphGPS
 ```bash
 conda activate FuzzyGNN
 
-# Running GPS with RWSE and tuned hyperparameters for ZINC.
+## Running GPS with RWSE and tuned hyperparameters for ZINC.
 python main_new.py --cfg configs/param/IMDB-BINARY-GENConv+Transformer-0-mix.yaml  wandb.use False
 
 ```
 
 
-## Citation
+# Citation
 
 If you find this work useful, please cite our paper:
 ```
