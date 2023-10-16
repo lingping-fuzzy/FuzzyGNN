@@ -13,7 +13,7 @@ How to build a FuzzyGNN ? We provide a 4-part recipe on how to build graph Trans
 3. global attention mechanism: [Transformer](https://arxiv.org/abs/1706.03762), [Performer](https://arxiv.org/abs/2009.14794), [BigBird](https://arxiv.org/abs/2007.14062)
 4. add fuzzy-assisted module.
 
-#Acknowledgement
+# Acknowledgement
 In this *FuzzyGNN*, we modified the package from sources
 
 Recipe for a General, Powerful, Scalable Graph Transformer [GraphGPS](https://github.com/rampasek/GraphGPS)
