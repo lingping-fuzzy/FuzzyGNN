@@ -37,9 +37,16 @@ python main_new.py --cfg configs/param/IMDB-BINARY-GENConv+Transformer-0-mix.yam
 ```
 
 
-# Citation
 
-If you find this work useful, please cite our paper:
+# Citation
+If you find our work relevant to your research, please cite:
 ```
-bible citation is here
+@article{snavsel2023large,
+  title={Large-scale data classification based on the integrated fusion of fuzzy learning and graph neural network},
+  author={Sn{\'a}{\v{s}}el, V{\'a}clav and {\v{S}}t{\v{e}}pni{\v{c}}ka, Martin and Ojha, Varun and Suganthan, Ponnuthurai Nagaratnam and Gao, Ruobin and Kong, Lingping},
+  journal={Information Fusion},
+  pages={102067},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
